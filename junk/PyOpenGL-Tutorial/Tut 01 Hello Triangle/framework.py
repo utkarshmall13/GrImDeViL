@@ -49,7 +49,6 @@ def loadShader(shaderType, shaderFile):
     return shader
 
 # Function that accepts a list of shaders, compiles them, and returns a handle to the compiled program
-#adsasd
 def createProgram(shaderList):
     program = glCreateProgram()
     
